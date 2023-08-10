@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header, #hero, #footer {
+    background-color: #1f2937;
+}
+
+#header, #hero, #header ul {
+    display: flex;
+}
+
+#hero #main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#hero #secondary, #header #links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header #logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button, #call_to_action, #call_to_action #header{
+    background-color: #3882f6;
+}
+
+#information #header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
