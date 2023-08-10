@@ -6,7 +6,7 @@
     background-color: #1f2937;
 }
 
-#header, #hero, #header ul {
+#header, #hero, #header ul, #information #content ul{
     display: flex;
 }
 
