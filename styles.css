@@ -2,44 +2,60 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#header, #hero, #footer {
+body > header {
     background-color: #1f2937;
+    padding: 0 3em 1em 3em;
 }
 
-#header, #hero, #header ul, #information #content ul{
+.top_pane {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#hero #main {
-    font-size: 48px;
-    font-weight: 900;
+.logo {
     color: #f9faf8;
 }
 
-#hero #secondary, #header #links {
-    font-size: 18px;
+nav {
     color: #e5e7eb;
 }
 
-#header #logo {
-    font-size: 24px;
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero > .left > header {
     color: #f9faf8;
 }
 
-button, #call_to_action, #call_to_action #header{
+.hero > .left > p {
+    color: #e5e7eb;
+}
+
+button {
     background-color: #3882f6;
 }
 
-#information #header {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1f2937;
+.hero > .right {
+    background-color: rgb(76, 76, 76);
+    display: flex;
+    color: #f9faf8;
+    align-items: center;
+    padding: 1em;
 }
 
-#quote {
+.quote {
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-weight: light;
-    font-style: italic;
-    color: #1f2937;
+}
+
+footer {
+    background-color: #1f2937;
 }
