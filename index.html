@@ -6,74 +6,72 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="top_pane">
-            <div class="logo">
-                <h1>Header Logo</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a>header link one</a>
-                    </li>
-                    <li>
-                        <a>header link two</a>
-                    </li>
-                    <li>
-                        <a>header link three</a>
-                    </li>
-                </ul>
+    <header class="dark-background padding">
+        <div class="flex-container space-between">
+            <div class="medium-text white-text">Header Logo</div>
+            <nav class="flex-container space-around gap">
+                <div class="small-text grey-text">header link one</div>
+                <div class="small-text grey-text">header link two</div>
+                <div class="small-text grey-text">header link three</div>
             </nav>
         </div>
-        <div class="hero">
-            <div class="left">
-                <header>
-                    <h1>This website is awesome</h1>
-                </header>
-                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign up</button>
+        <div class="flex-container">
+            <div class="flex-container column margin">
+                <div class="biggest-bold-text white-text">This website is awesome</div>
+                <div class="small-text grey-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                <div>
+                    <button class="blue-background white-text rounded-corners small-text">Sign up</button>
+                </div>
             </div>
-            <div class="right">
-                this is a placeholder for an image
+            <div class="flex-container flex-stretch">
+                <div class="grey-text grey-box margin flex-container centered">
+                    <div>this is a placeholder for an image</div>
+                </div>
             </div>
         </div>
     </header>
-    <main>
-        <section class="information">
-            <header>
-                <h1>Some random information</h1>
-            </header>
-            <article>
-                <div class="img"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </article>
-            <article>
-                <div class="img"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </article>
-            <article>
-                <div class="img"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </article>
-            <article>
-                <div class="img"></div>
-                <p>this is some subtext under an illustration or image</p>
-            </article>
-        </section>
-        <section class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer. Mayber it's just filing up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
-            <sub>Thor, God of Thunder</sub>
-        </section>
-        <section class="newsletter">
-            <div class="left">
-                <h1>Call to action! It's time!</h1>
-                <p>Sign up for our product by clicking that button right over there!</p>    
+    <div id="content" class="padding">
+        <div class="flex-container centered">
+            <div class="big-bold-text dark-text">Some random information.</div>
+        </div>
+        <div class="flex-container">
+            <div class="flex-container centered column">
+                <div class="blue-outline-box rounded-corners margin"></div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
-            <div class="right">
-                <button>Sign up</button>
+            <div class="flex-container centered column">
+                <div class="blue-outline-box rounded-corners margin"></div>
+                <div>this is some subtext under an illustration or image</div>
             </div>
-        </section>
-    </main>
-    <footer>Copyright The Odin Project 2021</footer>
+            <div class="flex-container centered column">
+                <div class="blue-outline-box rounded-corners margin"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+            <div class="flex-container centered column">
+                <div class="blue-outline-box rounded-corners margin"></div>
+                <div>this is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+    <div id="quote" class="grey-background padding">
+        <div>
+            <div class="big-italic-text dark-text">This is an inspiring quote, or a testimonial form a customer. Maybe it's just filling up space, or maybe people will actualy read it. Who know? All I know is that it looks nice.</div>
+            <div class="dark-text right-aligned">-Thor, God of Thunder</div>
+        </div>
+    </div>
+    <div id="newsletter" class="flex-container centered margin">
+        <div class="blue-background flex-container space-between padding rounded-corners">
+            <div class="flex-container column centered">
+                <div class="white-text">Call to action! It's time!</div>
+                <div class="white-text">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <div class="flex-container centered">
+                <button class="blue-background white-text rounded-corners small-text margin">Sign up</button>
+            </div>
+        </div>
+    </div>
+    <footer class="dark-background flex-container centered">
+        <div class="white-text">Copyright The Odin Project 2021</div>
+    </footer>
 </body>
 </html>
